@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+/* header */
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6F4E37;
+    height: 65px;
+}
+
+
+.header_list{
+    padding-top: 17px;
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+}
+
+.header_h3{
+    padding-top: 17px;
+    color: white;
+    padding-left: 20px;
+}
+
+.tag_a_header_list{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+/* .li_header{
+    
+} */
+
+
+/*main*/
+
+.section_1{
+    padding-top: 60px;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div_right{
+    margin-left: 100px;
+}
+
+.h_1_div_right{
+    text-align: right;
+    font-size: 50px;
+}
+
+.p_div_right {
+    color: #6F4E37;
+    font-size: 20px;
+    font-family: Tahoma, Arial, sans-serif; /* فونت مناسب برای فارسی */
+    text-align: justify; /* صاف کردن دو طرف متن (مهم‌ترین بخش) */
+    line-height: 2.2;    /* فاصله بین خطوط برای خوانایی بهتر */
+    direction: rtl;
+}
+
+.div_left{
+    flex-shrink: 0;
+    width: 600px;
+}
+
+.image_div_left{
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+/*section_2*/
+
+
+.section_2{
+    background-color: #FAF3EA;
+    margin-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.h_1_section_2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.div_section_2{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_section_2{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.image_section_2{
+    width: 100px;
+    border-radius: 300px;
+}
+
+.name{
+    padding-top: 20px;
+}
+
+.role{
+    padding-top: 15px;
+}
+
+
+
+/*footer*/
+
+.footer{
+    background-color: #2b2118;
+    color: #d9c7b3;
+    text-align: center;
+    padding: 20px;
+}
+

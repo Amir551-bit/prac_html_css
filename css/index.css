@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6F4E37;
+    height: 65px;
+}
+
+
+.header_list{
+    padding-top: 17px;
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+}
+
+.header_h3{
+    padding-top: 17px;
+    color: white;
+    padding-left: 20px;
+}
+
+.tag_a_header_list{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+
+/*section_1*/
+
+
+.section_1{
+    background-color: #FAF3EA;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.image_home{
+    width: 550px;
+    border-radius: 20px;
+}
+
+.tag_p_section_1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h_section_1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 110px;
+}
+
+.p_section_1{
+    text-align: center;
+    color: #6b5a4b;
+    font-size: 23px;
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+.a_section_1{
+    background-color: #6F4E37;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 12px;
+    margin-right: 440px;
+}
+
+
+
+
+/*section_2*/
+
+
+.section_2{
+    background-color: white;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    gap: 40px;
+}
+
+.div_section_2{
+    margin-top: 40px;
+    border: 1px solid #e5d9cb;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svg_section_2 {
+    width: 32px !important; /* سایز آیکون رو قفل میکنه روی 32 پیکسل */
+    height: 32px !important;
+    stroke: #6F4E37 !important; /* رنگ قهوه‌ای رو قفل میکنه */
+    margin-bottom: 15px; /* فاصله بین آیکون و متن */
+    flex: 1;
+}
+
+.span{
+    flex: 1;
+}
+
+
+
+/*footer*/
+
+
+.footer{
+    background-color: #2b2118;
+    color: #d9c7b3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+
+
+

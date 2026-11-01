@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+/* header */
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6F4E37;
+    height: 65px;
+}
+
+
+.header_list{
+    padding-top: 17px;
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+}
+
+.header_h3{
+    padding-top: 17px;
+    color: white;
+    padding-left: 20px;
+}
+
+/* .li_header{
+    
+} */
+
+.tag_a_header_list{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+
+/*main*/
+
+
+.main{
+    background-color: #d9c7b3;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    padding-top: 20px;
+    gap: 60px;
+    /* align-items: center; */
+    height: 680px;
+}
+
+.section_right{
+    /* flex: 1; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* flex-grow: 1; */
+    padding-right: 300px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    height: 90px;
+}
+
+.p_right{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.image_right{
+    width: 15px;
+    font-weight: bold;
+}
+
+.section_left{
+    /* flex-grow: 2; */
+    margin-top: 20px;
+}   
+
+.infomation{
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.h_1_left{
+    text-align: end;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.div_inside_left{
+    text-align: end;
+    padding-right: 30px;
+}
+
+.input_left{
+    padding: 8px;
+    width: 600px;
+    text-align: end;
+
+}
+
+#input_id{
+    height: 70px;
+}
+
+.tag_a_left{
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #6F4E37;
+    border-radius: 12px;
+    margin-left: 750px;
+    margin-right: 30px;
+    text-decoration: none;
+    margin-bottom: 35px;
+    color: white;
+}
+
+
+
+/*footer*/
+
+.footer{
+    background-color: #2b2118;
+    color: #d9c7b3;
+    text-align: center;
+    padding: 20px;
+}
