@@ -1,6 +1,10 @@
         
 /*main*/
 
+.main{
+    padding-top: 70px;
+}
+
 .section_1{
     padding-top: 60px;
     display: flex;
